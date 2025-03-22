@@ -1,0 +1,23 @@
+{
+    "name": "simbeez/importProductPosition",
+    "description": "Import Product Position Categorywise",
+    "config": {
+        "sort-packages": true
+    },
+    "require": {
+        "php": "~7.3.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.0",
+    "license": [
+        "Commercial"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Simbeez\\ImportProductPosition\\": ""
+        }
+    }
+}
